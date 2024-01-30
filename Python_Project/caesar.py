@@ -10,7 +10,6 @@ def encrypt(message, k):
     return encrypted_message
 
 
-
 def decrypt(message, k):
     return encrypt(message, -k)
 
